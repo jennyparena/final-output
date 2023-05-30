@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arrays</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style type="text/css">
+    
+        .popup-example-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+  
+        }
+        .input-value input{
+          color: #000;
+        }
+        label, input{
+            font-size: 1.6rem;
+
+        }
+        li{
+            font-size: 1.5rem;
+
+        }
+        .last-activity{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+        }
+        .multi-example{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          margin: 40px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+      <div class="b">
+        <h1 class="title_header">Arrays</h1>
+      </div>
+    </div>
+    <div class="content">
+      <div id="mySidenav" class="sidenav">
+        <div class="b"> 
+        <a href="about.html">About</a>
+      </div>  
+        <div class="b">
+          <a href="index.html">Home</a>
+        </div>
+      <div class="b">
+        <a href="if-else.html">if-else</a>
+      </div>
+      <div class="b">
+        <a href="loops.html"> for loops</a>
+      </div>
+      <div class="b"> 
+        <a href="nested.html">nested if-else</a>
+      </div>
+      <div class="b"> 
+        <a href="Js popUp message.html">Js popUp message</a>
+      </div>   
+      <div class="b"> 
+        <a href="array.html">Array</a>
+      </div>  
+    </div>
+    <div class="main">
+    <br>
+      <p>- An array is a collection of elements of the same type placed in contiguous memory locations that can be individually referenced by using an index to a unique identifier. Five values of type int can be declared as an array without having to declare five different variables (each with its own identifier).</p><br>
+    
+      <div class="cond">
+        <p>Push()</p>
+        <p>-The push() method adds the specified elements to the end of an array and returns the new length of the array</p>
+      <div class="cond">
+        <p>Pop()</p>
+        <p>-The pop() method removes the last element from an array and returns that element.</p>
+      
+      <div class="cond">
+        <p>Unshift()</p>
+        <p>-The unshift() function inserts new elements to an array. The new array values will be inserted in the beginning of the array.</p>
+      <div class="cond">
+        <p>Shift()</p>
+        <p>-The shift() function removes the first element from an array, and returns the value of the removed element.</p>
+    </div>
+
+
+   
+    
+    <div class="example-container">
+
+      
+      <h2>EXAMPLE ARRAY FLOWER:
+   <br>
+  <br><span id="arr"> ['Rose', 'Sampaguita', 'Orchids', 'Carnation', 'Iris', 'Tulip']</span></h2>
+
+
+
+            <div>
+                <label for="input">Enter a brand of car: </label>
+                <input type="text" id="input" placeholder="Enter brand of car">
+                <button onclick="addItem()">Add Item</button>
+            </div>
+         <h1>Brand of Cars</h1>
+            <div class="brand-items">
+                <ul id="myList">
+                <!-- List items will be added dynamically -->
+                </ul>
+            </div>
+            <div class="buttons">
+                <button onclick="removeFirst()">Shift</button>
+                <button onclick="removeLast()">Pop</button>
+                <button onclick="addFirst()">Unshift</button>
+                <button onclick="addLast()">Push</button>
+            </div>
+  </div>
+
+  <div class="multi-example">
+      <h2>EXAMPLE MULTIDIMENSIONAL ARRAYS:
+
+    <div class="inputs">
+        <div class="input-value">
+            <input type="text" id="name" placeholder="Enter Name">
+            <input type="number" id="age" placeholder="Enter Age">
+            <button onclick="addList()">Add</button>
+        </div>
+        
+       
+
+    </div>
+    
+    <div class="lists">
+
+    </div>
+
+    <div class="buttons">
+        <button onclick="shiftBtn()">Shift</button>
+        <button onclick="unshiftBtn()">Unshift</button>
+        <button onclick="popBtn()">Pop</button>
+        <button onclick="pushBtn()">Push</button>
+    </div>
+  </div>
+
+</div>
+<div class="last-activity">
+  <h3>Here is our last activity in the subject IPT</h3>
+  <p><a href="https://jennyparena.github.io/jenny">IT Staff Information</a></p>
+</div>
+
+      
+     </div>     
+       
+    </div>
+
+    
+  </div>
+
+    <footer>
+      <p>&copy; 2023 Developed By: Jenny Rose I. Parena</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

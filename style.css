@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+}
+
+body{
+    background-image: url(images/jr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FA58F4;
+}
+.sidenav a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    display: block;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+    width: 150px;
+    height: 45px;
+    border-bottom: 3px solid#080808;
+    border-left: 3px solid#080808;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.sidenav a:hover{
+    background-color: #e21d8b;
+    font-size: 20px;
+
+}
+    
+.header{
+    border: none;
+    text-align: center;
+    padding: 20px;
+    height: 60px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+    
+.b{
+    height: 100px;
+    text-align: center;
+}
+    
+.a{
+    height: 50px;
+    width: 50px;
+
+    
+}
+.content{
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+}
+    
+.sidenav{
+    width: 200px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 0%;
+    padding-bottom: 5px;
+}
+    
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-right: 50px;
+}
+    
+.main{
+    background-color: rgba(12, 12, 12, 0.781);
+    border-radius: 5px;
+    width: 100rem;
+    height: 100vh;
+    padding-bottom: 60px;
+    margin-left: 150pt;
+    overflow-y: scroll;
+}
+.main::-webkit-scrollbar{
+    width: 1vw;
+}
+.main::-webkit-scrollbar-track{
+    background-color: pink;
+}
+.main::-webkit-scrollbar-thumb{
+    background-color: #ff34ee;
+    border: 0.3vw solid #ffffff;
+    border-radius: 5vw;
+}
+.box_h2{
+    font-size: 40px;
+    font-style: oblique;
+   display: flex;
+   justify-content: center;
+   width:100vh;
+   color: yellow;
+
+}
+    
+h1{
+    font-size: 40px;
+    font-style: oblique;
+}
+
+.title{
+    font-size: 65px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    margin-left: 190px;
+    margin-top: 30px;
+    text-align: center;
+    margin-right: 20%;
+
+}
+
+.title_header{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 1px;
+}
+
+.contents{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+p{
+    margin-left: 30px;
+    line-height: 2;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cond{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.d{
+    margin-left: 100px;
+}
+
+.try{
+    color: lavender;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    margin-left: 150px;
+}
+
+button{
+    margin-left: 100px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #121212;
+    border: 2px solid green;
+    cursor: pointer;
+    color: white;
+}
+.popUp, .ifElse, .forLoop, .nested{
+    margin-left: 0;
+    height: 50px;
+    width: 200px;
+}
+.popUpExamples{
+    display: flex;
+    justify-content: center;
+    margin:100px;
+    gap: 5rem;
+}
+.ifElseExample, .loopsExample, .nestedExample{
+    display: flex;
+    justify-content: center;
+    margin:100px;
+}
+
+footer{
+    color: #2EFEF7;
+    font-family:sans serif, cursive, fantasy, and monospace;
+    font-style: oblique;
+    text-align: right;
+    margin:60px;
+    margin-right: 25px;
+}
+h2{
+    color:white;
+}
+ul{
+    color:white;
+}
+label{
+    color:white;
+}
+.example-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 1.9rem;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+.example-container button{
+    height: 50px;
+    width: auto;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 8px;
+    background-color: skyblue;
+    font-size: 1.5rem;
+}
+.example-container h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.example-container .inputs{
+    display: flex;
+    gap: 1.5rem;
+    
+}
+
+.example-container input{
+    height: 35px;
+    border: 4px solid #222;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: black;
+    
+}
+.example-container label, ol{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.example-container input::placeholder{
+    color: #000;
+    font-size: 1.3rem;
+}
+.example-container .buttons > *, .example-container .inputs button{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    border: 1px solid gray;
+}
+.example-container::placeholder{
+    padding: 0 12px;
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">    
+        <div class="b"> 
+            <h1 class="title_header">Nested if-else Statement</h1> 
+        </div>
+    </div>
+    <div class="content">
+        <div id="mySidenav" class="sidenav">
+            <div class="b"> 
+        <a href="about.html">About</a>
+      </div>  
+            <div class="b">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="b">
+                <a href="if-else.html">if-else</a>
+            </div>
+            <div class="b">
+                <a href="loops.html">for loops</a>
+            </div>
+            <div class="b"> 
+                <a href="nested.html">nested if-else</a>
+            </div>
+            <div class="b"> 
+                <a href="Js popUp message.html">Js popUp message</a>
+            </div> 
+            <div class="b"> 
+                <a href="array.html">Array</a>
+            </div> 
+        </div>
+        <div class="main">
+            <br>
+            <p>Embedding If Statement inside another IF Statement called 
+                JavaScript Nested If Statement. The JavaScript Else Statement allows us to 
+                print different statements depending upon the expression result (TRUE, FALSE). 
+                Sometimes we have to check even further when the condition is TRUE. 
+                In this situation, we can use the Nested IF statement, but be careful while using it.
+            </p>
+            <br>
+            <p>syntax:</p>
+            <div class="cond">
+                <p>if (condition 1) { // block of code to be executed if the condition is true</p>
+                <p class="d">if (condition_a_1) { // block of code to be executed if the condition is true</p>
+                <p class="d">} else if (condition_a_1){ // block of code to be executed if the condition_a_1 is false</p>
+                <p> if (condition 2)// block of code to be executed if the condition 1 is false{</p>
+                <p class="d">if (conditiona_a_2) // block of code to be executed if the condition is true{</p>
+                <p class="d">} else if (condition_a_2) // block of code to be executed if the condition_a_2 is false{</p>
+                <p>} else { //block of code to be executed if the condition 1 and condition 2 is false</p>
+            <div class="nestedExample">
+                <button class="nested" onclick="nestedExample()">Click to see nested if-else-if-else Example</button>
+            </div>     
+        </div>  
+    </div>
+    <footer>
+        <p>&copy; 2023 Developed By: Jenny Rose  I. Parena</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
